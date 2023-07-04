@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-family: 'space mono';
+    background-color: #EEE2DE;
+    box-shadow: 2px 5px 20px 1px rgba(0, 0, 0, .3);
+    padding: 20px;
+}
+
+.nav_list
+{
+    list-style: none;
+     display: flex;
+     justify-content: space-between;
+    margin-right: 10px;
+    font-size: 20px;
+     
+}
+
+.list_item
+{
+    padding-right:  30px;
+    cursor: pointer;
+}
+
+.list_item:hover
+{
+    color: red;
+    
+}
+.nav_sec1
+{
+    margin-left: 4rem;
+    font-size: 20px;
+}
+
+.name
+{
+    cursor: pointer;
+}
+
+span{
+    color: rgb(168, 30, 30);
+}
+
+.about_sec .intro_l1
+{
+    font-family: 'Cormorant Upright', serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.about_sec
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-top: 40px;
+}
+
+.about_div
+{
+    margin-left: 150px;
+    
+    font-family: 'Cormorant Upright', serif;
+}
+.avatar_img
+{
+    width: 250px;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+
+.intro_l2
+{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+/* project section */
+.project_section
+{
+    background-color: rgb(33, 32, 32);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+.pro_sec_title
+{
+    font-size: 40px;
+   margin-bottom: 20px;
+}
+
+.project_sec
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    place-items: center;
+    
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pro_template
+{
+   border: 3px solid white;
+   width: 400px;
+   height: 350px;
+   line-height: 30px;
+}
+
+
+.pro_img 
+{
+    width: 400px;
+    height: 180px;
+}
+
+.pro_title
+{
+    margin-left: 10px;
+}
+
+.pro_desc
+{
+    margin-left: 10px;
+}
+
+.btn-div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+button
+{
+    margin: 20px 40px ;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* footer section */
+
+.footer_sec
+{
+    margin-top: 0;
+    background-color: rgb(33, 32, 32);
+    color: white;
+    display: grid;
+    place-items: center;
+}
